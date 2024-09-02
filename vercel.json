@@ -1,4 +1,10 @@
 {
+	"builds": [
+		{ "src": "latest/index.html", "use": "@vercel/static" }
+	],
+	"routes": [
+		{ "src": "/(.*)", "dest": "/latest/index.html" }
+	],
   "headers": [
     {
       "source": "/(.*)",

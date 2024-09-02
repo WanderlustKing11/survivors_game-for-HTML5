@@ -1,1 +1,16 @@
-# As needed
+### Ignore Godot's import files (not applicable if not using the Godot project source)  ###
+.import/
+
+### Ignore OS-generated files ###
+# macOS specific
+.DS_Store
+# Windows specific
+Thumbs.db
+
+### Ignore logs and temporary files ###
+# Log files (not needed for deployment)
+*.log
+# Temporary files
+*.tmp
+# Backup files
+*.bak
